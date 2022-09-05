@@ -1,0 +1,56 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.ImageContainer img{
+border-radius: 50%;
+width: 200px;
+margin: 10px 0 0 10px;
+}
+
+.HeadingContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeadingContainer h1{
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large; 
+}
+
+.HeadingContainer p {
+    font-weight: 200;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.mainContainer h3 {
+    font-size: 15px;
+}
+
+.SkillsContainer{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
+.SkillsContainer button{
+    background-color: #2ACFCF;
+    border: none;
+    margin: 0 5px 0;
+    padding: 5px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 0.05rem;
+}
+
+.FooterContainer{ 
+    margin-top: 30px;
+}
+
+.FooterContainer span {
+    color: gray;
+}
